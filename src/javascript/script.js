@@ -1,6 +1,5 @@
 import "../css/style.css";
 
-
 const api = {
   key: process.env.API_KEY,
   url: "https://api.waqi.info/",

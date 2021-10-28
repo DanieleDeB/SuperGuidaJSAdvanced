@@ -9,11 +9,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Work Sans, Geneva; 
-/*     background-image: url("../img/backgroundimg.png");
- */ 
+    font-family: Work Sans, Geneva;  
 }
-
 
 .app-wrap{
     z-index: 1;
@@ -157,10 +154,4 @@ header input :focus{
     font-style: oblique;
     font-weight: lighter;
     font-size:12px;
-}
-
-#vid{
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
 }

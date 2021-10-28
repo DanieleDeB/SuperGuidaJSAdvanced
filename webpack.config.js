@@ -5,17 +5,13 @@ const Dotenv = require("dotenv-webpack");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
-
 module.exports = {
   mode: "development",
   entry: "./src/javascript/script.js",
   plugins: [
-  new CopyPlugin({
-      patterns: [
-        { from: "src/img", to: "img" },
-       
-      ],
-    }), 
+    new CopyPlugin({
+      patterns: [{ from: "src/img", to: "img" }],
+    }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "src/index.html",
@@ -29,7 +25,6 @@ module.exports = {
 
   module: {
     rules: [
-
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
@@ -43,8 +38,8 @@ module.exports = {
         loader: "file-loader",
         options: {
           limit: 81928192,
-         
-          name: '[name].[ext]',
+
+          name: "[name].[ext]",
         },
       },
     ],
