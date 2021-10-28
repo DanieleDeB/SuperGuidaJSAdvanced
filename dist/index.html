@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <link rel="icon"  href="59f47e4277c57b65ba4c.ico" type="image/ico" sizes="32x32">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Concert One|Prompt">
+        <title>Air Pollution Tracker</title>
+    <script defer src="bundle.js"></script></head>
+
+    <body background="./img/backgroundimg.png" > <!--  -->
+      
+        <div class="app-wrap ">
+
+            <header>
+                <h1>Air Quality Index Tracker</h1>
+                <input type="text" placeholder="Enter a Location..." class="search-box" />
+            </header>
+
+            <div class="location">
+                <div class="city">Enter a Location</div>
+                <div class="date">Current Date</div>
+            </div>
+
+            <div class="coordinates">
+                <div class="lat">Lat.</div>
+                <span id="lat-value">TBD</span>
+                <div class="lon">Long.</div>
+                <span id="lon-value">TBD</span>
+            </div>
+            
+            <hr>
+            <div class="parameters">Air Quality Parameters</div>
+            <hr>
+            <div class="air-quality">
+
+                <div class="air-parameters">
+                    <div class="o3">Ozone(o3)</div>
+                    <hr>
+                    <div class="co">CO</div>
+                    <hr>
+                    <div class="s02">SO2</div>
+                    <hr>
+                    <div class=n02>NO2</div>
+                    <hr>
+                    <div class="pm10">PM10</div>
+                    <hr>
+                    <div class="pm25">PM2.5</div>
+                </div>
+
+                <div class = "last-update">
+                    <div class="o3-time">last-update</div>
+                    <hr>
+                    <div class="co-time">last-update</div>
+                    <hr>
+                    <div class="s02-time">last-update</div>
+                    <hr>
+                    <div class=n02-time>last-update</div>
+                    <hr>
+                    <div class="pm10-time">last-update</div>
+                    <hr>
+                    <div class="pm25-time">last-update</div>
+                </div>
+
+                <div class="parameters-options">
+                    <div class="o3-value">TBD µg/m³</div>
+                    <hr>
+                    <div class="co-value">TBD µg/m³</div>
+                    <hr>
+                    <div class="so2-value">TBD µg/m³</div>
+                    <hr>
+                    <div class="no2-value">TBD µg/m³</div>
+                    <hr>
+                    <div class="pm10-value">TBD µg/m³</div>
+                    <hr>
+                    <div class="pm25-value">TBD µg/m³</div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
+
