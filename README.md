@@ -1,19 +1,17 @@
-# Contatore
+# Rilevatore di inquinamento
 
-Creare un Contatore in Javascript, che tramite il tasto + e - , incrementi e decrementi
-il numero all'intern dell'apposito box. 
+Creare una pagina in cui, tramite le API di https://aqicn.org/ si possano vedere i valori dell' inquinamento di una città
 
 ## Creazione
 
-Creato i due bottoni principali + e - 
-Creato il div che a sua volta avrà all interno lo span con il valore iniziale 0 
-Creato il bottone RESET per reimpostare il valore a 0 direttamente
+Creato la barra di ricerca della città, che, tramite le API di geolocalizzazione e del nome della città, vengono rilevati i valori dell' inquinamento della città cercata
 
 ## Composizione
 
-E' presente il file index.html dove si possono trovare i riferimenti al file JS e  al file CSS 
-Il file script.js in cui sono tenute le funzioni di aumento/decremento/reset e la loro creazione
-Il file CSS crato da me per personalizzare il codice 
+Il progetto si compone è composto principalemte dal file index.html , style.css e script.js , ma tramite l' utilizzo di webpack sono stati aggiunti i vari componenti per far si che funzionasse al meglio.
 
 ## Raggiungibilità
-L'applicazione è raggiungibile all URL https://superguidajavascriptbase.firebaseapp.com/ oppure https://superguidajavascriptbase.web.app/
+L'applicazione è raggiungibile all URL https://superguidajavascriptadvanced.web.app/ oppure https://superguidajavascriptadvanced.firebaseapp.com/
+
+##Note
+E' il progetto della vecchia super guida java script advanced, ho chiesto al supporto di Start2impact e mi hanno comunicato che potevo consegnarlo in una nuova sezione di un progetto.
